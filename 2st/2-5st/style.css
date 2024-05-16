@@ -1,0 +1,31 @@
+.overflow-div {
+  overflow: hidden;
+  position: relative;
+}
+
+.slide-container {
+  width: 300vw;
+  display: flex;
+  /* translate 값을 -100, -200으로 바꿔보자 */
+  transform: translate(-0vw);
+  transition: all 1s; /* 해당 태그에 변화가 일어나면 모든 속성이 1초의 간격으로 변화한다. */
+}
+
+.slide {
+  width: 100vw;
+  height: 300px;
+}
+
+.slide img {
+  width: 100%;
+}
+
+.btn {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+}
+
+.next {
+  right: 0;
+}
